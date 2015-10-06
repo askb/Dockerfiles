@@ -7,4 +7,5 @@ RUN apt-get update && apt-get install -y \
 ENV var1=ping var2=8.8.8.8
 
 CMD $var1 $var2
+
 #ENTRYPOINT ["ping","-c 30", "8.8.8.8"]
