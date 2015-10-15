@@ -15,7 +15,6 @@ run apt-get install -y golang
 run apt-get install -y python
 run apt-get install -y curl
 run apt-get install -y vim
-run apt-get install -y vimdiff
 run apt-get install -y strace
 run apt-get install -y diffstat
 run apt-get install -y pkg-config
