@@ -8,20 +8,23 @@
 
 from ubuntu:14.04
 
-run apt-get update -y
-run apt-get install -y mercurial
-run apt-get install -y git
-run apt-get install -y golang
-run apt-get install -y python
-run apt-get install -y curl
-run apt-get install -y vim
-run apt-get install -y strace
-run apt-get install -y diffstat
-run apt-get install -y pkg-config
-run apt-get install -y cmake
-run apt-get install -y build-essential
-run apt-get install -y tcpdump
-run apt-get install -y screen
+run apt-get update -y && apt-get install -y \
+		mercurial \
+		git \
+		golang \
+		python \
+		curl \
+		vim \
+		strace \
+		diffstat \
+		pkg-config \
+		cmake \
+		build-essential \
+		tcpdump \
+		screen \
+		cgdb \
+		gdb \
+		ipython
 
 # set goroot and GOPATH
 env GOROOT /usr/local/go
