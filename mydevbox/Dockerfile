@@ -24,7 +24,8 @@ run apt-get update -y && apt-get install -y \
 		screen \
 		cgdb \
 		gdb \
-		ipython
+		ipython \
+		psmisc
 
 # set goroot and GOPATH
 env GOROOT /usr/local/go
